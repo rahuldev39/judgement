@@ -1,0 +1,132 @@
+body{
+    font-family: 'Roboto', sans-serif;
+}
+.wrapper aside.sidebar {
+    min-width: 300px;
+    border-right: 1px solid #e2e2e2;
+}
+a{
+    color: #4d5bed;
+}
+p {
+    color: #4d5875;
+    font-size: .96rem;
+    line-height: 1.6rem;
+}
+.bg-dark {
+    background-color: #0c2050 !important;
+}
+.sidebar-title h4 {
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: #0d2050;
+    border-bottom: 1px solid #e2e2e2;
+    padding-bottom: 1rem;
+    margin-bottom: 20px;
+}
+.judgement-list li a {
+    display: block;
+    margin-bottom: 6px;
+    border-bottom: 1px solid #efefef;
+    padding-bottom: 6px;
+    font-size: .93rem;
+}
+.judgement-info h4 {
+    font-size: 1.8rem;
+    font-weight: 600;
+    color: #0d2050;
+}
+.tab-container {
+    border: 1px solid #0d1f50;
+    border-radius: 6px;
+    overflow: hidden;
+}
+.nav-tabs {
+    border-bottom: 1px solid #0d1f50;
+    background-color: #0d2050;
+}
+.nav-tabs .nav-item {
+    margin-bottom: -2px;
+}
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+    color: #f1f5fa;
+    background-color: #4350e000;
+    border-color: transparent;
+    border-bottom: 3px solid #5368ee;
+}
+
+.nav-tabs .nav-link {
+    color: #989898;
+    padding: 5px 20px;
+    font-weight: 500;
+}
+
+.custom-radio label {
+    line-height: 25px;
+    position: relative;
+    margin-bottom: 0px;
+    padding-left: 30px;
+    cursor: pointer;
+    color: #0d2050;
+    font-size: .86rem;
+}
+.custom-radio label input[type="radio"]:checked + span::before {
+    content: "\f192";
+    font-weight: bold;
+}
+.custom-radio label input[type="radio"] + span::before {
+    content: "\f111";
+}
+.custom-radio label input[type="radio"] + span::before, .custom-checkbox label input[type="checkbox"] + span::before {
+    font-family: 'Font Awesome 5 Free';
+    display: block;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    font-size: 1.2rem;
+    color: #4350e0;
+}
+.bg-gray {
+    background-color: #F1F5FA;
+}
+
+.btn-primary {
+    background-color: #4d5bed;
+    border-color: #4d5bed;
+}
+.btn {
+    font-weight: 500;
+    font-size: 1rem;
+    line-height: 1.5;
+    padding: .6rem 2rem;
+    border-radius: .375rem;
+}
+.btn-primary:hover {
+    background-color: #6470ef;
+    border-color: #6470ef;
+}
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    color: #ffffff;
+    background-color: #0d1f50;
+    border: 1px solid #ffffff;
+}
+.nav-pills .nav-link {
+    border-radius: .25rem;
+    color: #0d1f50a3;
+    padding: 5px 10px;
+    margin-right: 8px;
+    border: 1px solid #0d1f506e;
+    font-size: .9rem;
+}
+footer{
+    color: #fdfdfd91;
+}
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
+    color: rgb(67 80 224);
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: rgb(13 31 80 / 85%);
+    font-weight: 500;
+    padding: 0px 16px;
+}
